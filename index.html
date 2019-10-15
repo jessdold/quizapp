@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="A quiz to test your musical snobbiness level">
-    <title>repl.it</title>
+    <title>The Music Snob Quiz</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Patua+One|Permanent+Marker&display=swap" rel="stylesheet">
   </head>
   <header>
-    <img class="headerImage" src="https://www.freewebheaders.com/wp-content/gallery/music/colorful-music-notes-website-on-white-background-header.jpg">
+    <img class="headerImage" src="https://www.freewebheaders.com/wp-content/gallery/music/colorful-music-notes-website-on-white-background-header.jpg" alt="pic of scattered music notes entwined in a tie-dye background">
   </header>
   <body>
-    <div class="title">Are You A Music Snob?</div>
-    <div class="question"></div>
-    <div class="answers"></div>
-    <div class="description">
-      <p>This quiz separates the musicians from the wannabes.</p></div>
-    <button type="submit">Let's Find Out!</button>
-    <div class="counter">Question <span="questionNumber">0</span> / 10 --- Your score: <span class="scoreCount">0</span> /
-     5</div>
-
+     <main> 
+      <section class="title">Are You A Music Snob?</section>
+      <section class="counter"></section>
+      <section class="question"></section>
+      <section class="answers"></section>
+      <section class="final"></section>
+      <section class="description">
+        <p>This quiz separates musicians from wannabes.</p>
+        <p>How do you measure up?</p>
+        <button type="button" id="beginQuiz">Let's Find Out!</button>
+      </section>
+     </main>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script src="store.js"></script>
   </body>
 </html>
+
+
